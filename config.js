@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['💙', '✨', '🤍', '🤍', '💙'],  // Heart emojis
         bears: ['😻', '😸']                       // Cute bear emojis
     },
 
@@ -25,15 +25,15 @@ const CONFIG = {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I don't like you, I love you!!"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            nextBtn: "Next!"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
+            text: "Will you be my Valentine on February 14th, 2025?", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -51,17 +51,17 @@ const CONFIG = {
     celebration: {
         title: "YIPPAY! I'm the luckiest person in the world!",
         message: "I cant wait to hangout with you!!!",
-        emojis: "😽💖🤗💝😻❤️💕"  // These will bounce around
+        emojis: "😽😽😽"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#c9d6ff",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#cfe9f5",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#eaf6fb",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#7fbcd2",     // Button color (should stand out against the background)
+        buttonHover: "#9ad0e3",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#3a6f8f"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
